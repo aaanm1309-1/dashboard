@@ -3,3 +3,7 @@ npx create-react-app dashboard2 --template typescript
 
 # rodar o programa
 yarn start
+
+# Adicionais 
+yarn add styled-components
+yarn add @types/styled-components -D
