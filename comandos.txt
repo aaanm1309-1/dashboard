@@ -7,3 +7,5 @@ yarn start
 # Adicionais 
 yarn add styled-components
 yarn add @types/styled-components -D
+yarn add react-switch
+yarn add react-icons

@@ -6,7 +6,8 @@ import {
   UserName
  } from './styles';
 
- import emojis from '../../utils/emojis'
+import Togg from '../Togg';
+import emojis from '../../utils/emojis'
 
 const MainHeader: React.FC = () => {
 
@@ -18,7 +19,7 @@ const MainHeader: React.FC = () => {
 
   return (
     <Container>
-      <h1>Toggle</h1>
+      <Togg/>
       <Profile>
           <Welcome>Olá, {emoji}</Welcome>
           <UserName> Adriano Menezes</UserName>
