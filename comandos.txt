@@ -1,0 +1,5 @@
+Criaçao do Projeto React
+npx create-react-app dashboard2 --template typescript
+
+# rodar o programa
+yarn start
