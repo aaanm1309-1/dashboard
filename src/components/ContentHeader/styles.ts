@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+interface ITitleProps {
+  lineColor: string;
+}
+
+
 export const Container = styled.div`
 
 
@@ -16,21 +21,21 @@ export const Container = styled.div`
 export const TitleContainer = styled.div`
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h2<ITitleProps>`
 
   &::after { 
     content: '';
     display: block;
     width: 55px;
-    border-bottom: 10px solid ${props => props.theme.colors.warning};
+    border-bottom: 10px solid ${props => props.lineColor};
   }
 
 
 `;
 
 export const Controllers = styled.div`
-  /* display: flex;
-  flex-direction: row; */
+  display: flex;
+  flex-direction: row;
 
 `;
 
