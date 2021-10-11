@@ -23,7 +23,6 @@ const List: React.FC = () => {
           </ContentHeader>
           <Content>
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -31,7 +30,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Agua'
               subtitle='27/07/2021'
@@ -39,7 +37,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Aluguel'
               subtitle='27/07/2021'
@@ -47,7 +44,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Prestação do Carro'
               subtitle='27/07/2021'
@@ -55,7 +51,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -63,7 +58,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -71,7 +65,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -79,7 +72,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -87,7 +79,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'
@@ -95,7 +86,6 @@ const List: React.FC = () => {
             />
 
             <HistoryFinanceCard
-              cardColor='#313862'
               tagColor='#E33C4E'
               title='Conta de Luz'
               subtitle='27/07/2021'

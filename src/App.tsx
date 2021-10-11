@@ -11,7 +11,7 @@ import List from './pages/List';
 
 const App: React.FC = () => {
   return (
-      <ThemeProvider theme={dark}>
+      <ThemeProvider theme={light}>
         <GlobalStyles/>
         <Layout>
           <List />
