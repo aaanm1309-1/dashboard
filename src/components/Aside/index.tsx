@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { 
   MdDashboard,
   MdArrowDownward,
@@ -25,17 +25,17 @@ const Aside: React.FC = () => {
         <Title>Minha Carteira</Title>
       </Header>
       <MenuContainer>
-        <MenuItemLink href="#">
+        <MenuItemLink href="/dashboard">
            <MdDashboard/>
             DashBoard
         </MenuItemLink>
 
-        <MenuItemLink href="#">
+        <MenuItemLink href="/list/entry-balance">
           <MdArrowUpward/>
             Entradas
         </MenuItemLink>
 
-        <MenuItemLink href="#">
+        <MenuItemLink href="/list/exit-balance">
           <MdArrowDownward/>
             Saidas
         </MenuItemLink>

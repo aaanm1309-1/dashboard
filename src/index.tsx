@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
 
-// import Dashboard from './pages/Dashboard';
-import App from './App';
+import AppPrincipal from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppPrincipal />
   </React.StrictMode>,
   document.getElementById('root')
 );
